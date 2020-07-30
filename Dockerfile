@@ -11,9 +11,9 @@ RUN curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 RUN apt-get install -y nodejs
 
-RUN git clone https://github.com/arvincsh/stream-service-nctu.git
+RUN git clone https://github.com/arvincsh/stream-service.git
 
-WORKDIR /home/work/stream-service-nctu
+WORKDIR /home/work/stream-service
 
 ENV DEBIAN_FRONTEND=noninteractive
 
